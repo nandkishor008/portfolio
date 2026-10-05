@@ -8,7 +8,7 @@ The portfolio is designed to present my software engineering projects, technical
 
 ## 🚀 Live Portfolio
 
-**Live Website:** portfolio-wheat-one-a6lrudaz02.vercel.app
+**Live Website:** [portfolio-wheat-one-a6lrudaz02.vercel.app](https://portfolio-wheat-one-a6lrudaz02.vercel.app/)
 
 **GitHub:** https://github.com/nandkishor008
 

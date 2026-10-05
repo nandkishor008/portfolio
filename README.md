@@ -1,95 +1,174 @@
 # Nandkishor Kumar Pandit — Premium 3D Portfolio
 
-A multi-page React + Vite portfolio with a premium dark visual system, React Three Fiber 3D scene, Framer Motion transitions, auto-sliding featured projects, responsive navigation and data-driven content.
+A modern, multi-page personal portfolio built with **React, Vite, React Three Fiber, and Framer Motion**.
 
-## Pages
+The portfolio is designed to present my software engineering projects, technical skills, experience, coding journey, and contact information through a premium dark UI with interactive 3D visuals and smooth animations.
 
-- `/` Home
-- `/about`
-- `/projects`
-- `/projects/:slug`
-- `/skills`
-- `/experience`
-- `/coding`
-- `/freelance`
-- `/contact`
+---
 
-## Run locally
+## 🚀 Live Portfolio
 
-```bash
-npm install
-npm run dev
-```
+**Live Website:** Add your Vercel URL here
 
-Then open the local Vite URL.
+**GitHub:** https://github.com/nandkishor008
 
-## Build
+---
 
-```bash
-npm run build
-npm run preview
-```
+## ✨ Features
 
-## Update your portfolio
+- Premium dark software-engineering inspired UI
+- Interactive 3D hero section
+- React Three Fiber 3D architecture visualization
+- Framer Motion page and component animations
+- Responsive design for desktop, tablet, and mobile
+- Multi-page navigation with React Router
+- Auto-rotating hero roles
+- Featured project carousel
+- Dynamic project detail pages
+- Project architecture visualizations
+- Skills and technology showcase
+- Coding/DSA section
+- Freelancing section
+- Contact section
+- Resume integration
+- Data-driven portfolio content
+- Glassmorphism UI elements
+- Cinematic red/burgundy lighting system
 
-Most content lives in:
+---
 
-- `src/data/profile.js`
-- `src/data/projects.js`
-- `src/data/skills.js`
-- `src/data/content.js`
+## 📄 Pages
 
-Add internship details and certifications in `src/data/content.js` when you are ready. No page redesign is required.
+| Route | Description |
+|---|---|
+| `/` | Home / Hero |
+| `/about` | About me |
+| `/projects` | Project showcase |
+| `/projects/:slug` | Individual project details |
+| `/skills` | Technical skills |
+| `/experience` | Experience and background |
+| `/coding` | Coding and DSA profile |
+| `/freelance` | Freelancing information |
+| `/contact` | Contact information |
 
-## Resume
+---
 
-Place your final PDF at `public/resume.pdf` to activate the resume path in the profile data.
+## 🛠️ Tech Stack
 
-## Notes
+### Frontend
 
-The current version intentionally does not invent the name of your online internship or certification names because those details were not supplied. The UI is ready for them.
+- React.js
+- Vite
+- React Router
+- Tailwind CSS
+- Framer Motion
+- Axios
 
+### 3D & Animation
 
-## Profile image
+- Three.js
+- React Three Fiber
+- React Three Drei
+- Framer Motion
 
-Add your photo as:
+### Development
 
-`public/profile.jpg`
+- JavaScript
+- HTML5
+- CSS3
+- Git
+- GitHub
+- npm
 
-The About page already has the professional profile-image frame and will automatically use the image. Until you add it, the site shows an intentional NK placeholder instead of a broken image.
+### Deployment
 
-## Theme
+- Vercel
 
-The visual system uses a deep black / burgundy / red palette with warm red lighting, software-engineering 3D terminal/monitor visuals, premium glass cards and restrained motion.
+---
 
+## 🎨 Design System
 
-## Visual refinement V2
+The portfolio uses a cinematic software-engineering visual system built around:
 
-This version includes the full cinematic refinement in one build:
+- Deep black backgrounds
+- Burgundy and red accents
+- Warm red lighting
+- Glassmorphism cards
+- Soft gradients
+- Subtle borders and shadows
+- Smooth page transitions
+- Interactive 3D elements
 
-- software-engineering 3D workstation / code environment
-- orbiting system architecture nodes
-- cinematic hero HUD
-- role auto-rotation
-- page-to-page Framer Motion transitions
-- premium product dashboard previews in project cards
-- larger featured project treatment
-- system architecture section on project detail pages
-- process / engineering workflow section
-- real-screenshot-ready folder: `public/project-screens/`
+The design focuses on maintaining a professional engineering identity while making the portfolio visually distinctive.
 
-The product previews are intentionally original UI mockups, not fake "screenshots" of your deployed apps. When actual screenshots are available, they can be added to the screenshot folder without changing the overall design.
+---
 
+## 🧩 3D Hero Experience
 
-## Hero V4
+The hero section is built around a software architecture visualization instead of a traditional floating monitor.
 
-The hero has been rebuilt around a software-architecture visualization rather than a generic monitor:
-- central rotating API/server core
-- UI / API / AUTH / DB / CLOUD / GIT nodes
-- connected architecture lines
-- moving data packets
-- rotating system rings
-- red/burgundy engineering lighting
-- no floating HUD/card collisions
+It includes:
 
-The hero copy is intentionally more descriptive and explains Nandkishor’s engineering focus, stack, current learning/internship status and problem-solving direction.
+- Central rotating API/server core
+- UI node
+- API node
+- Authentication node
+- Database node
+- Cloud node
+- Git node
+- Connected architecture lines
+- Animated data packets
+- Rotating system rings
+- Cinematic lighting
+- Interactive 3D environment
+
+The visualization represents a modern full-stack software architecture.
+
+---
+
+## 💻 Featured Projects
+
+The portfolio uses data-driven project information so projects can be added or updated without redesigning individual pages.
+
+Project information includes:
+
+- Project title
+- Description
+- Technology stack
+- Features
+- Architecture
+- Development process
+- Screenshots
+- GitHub repository
+- Live deployment
+
+---
+
+## 📁 Project Structure
+
+```text
+portfolio/
+│
+├── public/
+│   ├── profile.jpg
+│   ├── resume.pdf
+│   └── project-screens/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── data/
+│   │   ├── profile.js
+│   │   ├── projects.js
+│   │   ├── skills.js
+│   │   └── content.js
+│   │
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── README.md
